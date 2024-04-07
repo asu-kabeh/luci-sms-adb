@@ -127,6 +127,6 @@ jobs:
         makeLatest: true
         artifacts: /workdir/*
         allowUpdates: true
-        token: ${{ secrets.GH_TOKEN }}
+        token: ${{ secrets.API_KEY }}
         body: |
           This is Openwrt IPK
