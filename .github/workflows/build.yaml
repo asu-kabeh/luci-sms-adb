@@ -76,13 +76,9 @@ jobs:
         ln -sf ../../packages new
         cd ../
 
-        ./scripts/feeds update base packages luci routing telephony
-        ./scripts/feeds install base packages luci routing telephony
+        ./scripts/feeds update -a
+        ./scripts/feeds install -a
         make defconfig
-        ln -sf ../../../feeds/packages/net/curl package/feeds/packages/curl
-        cd ..
-
-        rm -f "appbuilder.tar.xz"
 
     - name: Build Openwrt IPK
       id: build
