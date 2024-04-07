@@ -17,11 +17,11 @@ on:
           - '23.05.2'
       package:
         description: 'Openwrt build package'
-        default: 'all'
+        default: 'luci-sms-adb'
         required: true
         type: choice
         options:
-          - 'all'
+          - 'luci-sms-adb'
         
 env:
   TZ: Asia/Jakarta
