@@ -129,8 +129,4 @@ jobs:
         allowUpdates: true
         token: ${{ secrets.API_KEY }}
         body: |
-<<<<<<< HEAD
           This is Openwrt IPK
-=======
-          This is Openwrt IPK
->>>>>>> fab8a4654a3d5da9ef5b6641a33f1dd9ce676146
