@@ -191,6 +191,39 @@ tr:nth-child(odd) {
 }
 
 
+.column4 {
+  width: 50px;
+  text-align: left;
+}
+
+
+.copy-button {
+  background-color: #3c3c3c; /* Hijau */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.copy-button:hover {
+  background-color: #002b49; /* Hijau yang lebih gelap */
+}
+
+
+
+
+
+
+
+
+
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
